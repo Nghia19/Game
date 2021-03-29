@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <audio
+      class="audio-10s"
+      src="./sound/Clock-Ticking-Sound-Effect.mp3"
+    ></audio>
+    <audio
+      class="audio-bell-rang"
+      src="./sound/Taco-Bell-Bong-sSFX.mp3"
+    ></audio>
+    <audio class="audio-begin" src="./sound/start.mp3"></audio>
+    <div class="container">
+        <div class="title">
+          <h1>Choose the correct color</h1>
+
+        </div>
+        <div class="game">
+          <div class="cc"> <h4>
+            <span class="correct-color">
+              <h5>Vui lòng chọn màu : <span class="color"></span></h5>
+            </span>
+          </h4>
+          <div id="bounce-element"></div>
+        </div>
+        <div class="timer-point">
+          <div class="timer-ring">
+            <span class="minute">00</span><span class="khoangtrang">:</span
+            ><span class="second">30</span>
+          </div>
+          <div class="my-btn">
+            <button class="btn-start" type="button">Start</button>
+          </div>
+          <h5>Điểm: <span id="point">0</span></h5>
+
+        </div>
+      </div>
+
+    <script src="https://unpkg.com/sweetalert2@7.20.1/dist/sweetalert2.all.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

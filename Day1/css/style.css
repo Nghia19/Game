@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Train+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.container {
+  width: 1241px;
+  margin: 0 auto;
+  min-height: 60vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0 20px;
+}
+
+.title {
+  width: 100%;
+  position: relative;
+}
+.title h1 {
+  display: block;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+.game {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cc {
+  flex-grow: 1;
+}
+h5 {
+  padding: 10px 0;
+}
+.cc #bounce-element {
+  display: flex;
+  margin-left: -10px;
+}
+#bounce-element span {
+  display: block;
+  width: calc(25% - 10px);
+  height: 150px;
+  margin-left: 10px;
+}
+span.color {
+  font-size: 50px;
+}
+
+.color {
+  height: auto;
+  width: 80px;
+  color: black;
+  font-size: 200px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.timer-point {
+  width: calc(30% - 30px);
+  margin-left: 30px;
+}
+.timer-ring {
+  text-align: center;
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+  border: 5px solid gray;
+  border-radius: 9999999px;
+  line-height: 70px;
+}
+.my-btn {
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn-start {
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  background: no-repeat #fbfbfb;
+  padding: 0.28rem 1.2rem;
+  border: 2px solid #181818;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  text-align: center;
+  transform-style: preserve-3d;
+  transform: translateZ(1rem);
+}
+.btn-start:hover {
+  background-color: #76b9f2;
+}
+.btn-start:after {
+  box-shadow: 10px 10px 0 10px transparent;
+  transition: all 0.15s;
+  transition-timing-function: ease-out;
+  border: inherit;
+  border-radius: inherit;
+  position: absolute;
+  display: inherit;
+  left: 0.12rem;
+  top: 0.12rem;
+  transform: translate(0);
+  content: "";
+  width: 100%;
+  height: 100%;
+  transform: translateZ(-0.1rem);
+  background-color: #76b9f2;
+}
+.result {
+  width: 100%;
+  height: 40px;
+  background-color: bisque;
+}
+@media screen and (max-width: 768px) {
+  .timer-point {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
