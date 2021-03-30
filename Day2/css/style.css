@@ -44,12 +44,14 @@ h5 {
 .cc #bounce-element {
   display: flex;
   margin-left: -10px;
+  flex-wrap: wrap;
 }
 #bounce-element span {
   display: block;
-  width: calc(25% - 10px);
+  width: calc(33.333% - 10px);
   height: 150px;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 span.color {
   font-size: 70px;
