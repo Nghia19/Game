@@ -46,6 +46,7 @@ h5 {
   margin-left: -10px;
 }
 #bounce-element span {
+  cursor: pointer;
   display: block;
   width: calc(25% - 10px);
   height: 150px;

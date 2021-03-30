@@ -47,6 +47,7 @@ h5 {
   flex-wrap: wrap;
 }
 #bounce-element span {
+  cursor: pointer;
   display: block;
   width: calc(33.333% - 10px);
   height: 150px;
@@ -132,6 +133,9 @@ span.color {
     width: 100%;
     margin-top: 30px;
     margin-left: 0;
+  }
+  #bounce-element span {
+    height: 100px;
   }
 }
 .swal2-container.swal2-shown {
