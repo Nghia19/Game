@@ -82,7 +82,7 @@ function game() {
   var spanKQ = document.querySelectorAll("#bounce-element span");
   var opacityColor;
   if (diem < 40) {
-    opacityColor = 0.5 + diem / 100;
+    opacityColor = 0.6 + diem / 100;
   } else {
     opacityColor = 0.95;
   }
